@@ -1,0 +1,77 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color:  #FFC6C6;
+    padding: 10px 20px 0px;
+    font-family: 'Arial', sans-serif; 
+    
+}
+.header {
+    text-align: center;
+    background-color: #994949;
+    min-height: 150px;
+}
+.content {
+    font-family: 'Arial', sans-serif; 
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+    text-align: justify;
+}
+.footer {
+    font-family: 'Arial', sans-serif; 
+    background-color: #E48B8B;
+    min-height: 150px;
+    text-align: center;
+}
+
+.horarios {
+    text-align: center;
+}
+
+table {
+    text-align: center;
+    -webkit-box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.39); 
+    box-shadow: 5px 5px 8px 5px rgba(0,0,0,0.39);
+    border: solid 1px black;
+}
+table thead th {
+    background-color: black;
+    color: white;
+}
+table tfoot td {
+    background-color: lightgray;
+}
+table tbody tr:nth-child(even) td {
+    background-color: #dddbdb;
+}
+table tbody tr:hover td {
+    background-color: #c0bebe;
+    cursor: pointer;
+}
+
+label {
+    text-align: right;
+    width: 80px;
+    display: inline-block;
+    padding-right: 2px;
+}

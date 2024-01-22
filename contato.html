@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template - Utilizar como modelo</title>
+    <link rel="stylesheet" href="base.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <ul>
+                <strong>
+                <li><a href="pagina_principal.html">Página Principal</a></li><br>
+                <li><a href="sobre.html">Sobre a clínica</a></li><br>
+                <li><a href="horario_atendimento.html">Horário de Atendimento</a></li><br>
+                <li><a href="contato.html">Contato</a></li>
+                </strong>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <!-- Aqui vai o seu header -->
+                <img src="imagem_4.png" alt="Imagem da Clínica">
+            </div>
+    
+            <div class="content">
+                <h1>Entre em Contato Conosco</h1>
+                
+                <p>Estamos aqui para responder às suas dúvidas e agendar sua consulta. Entre em contato pelos seguintes meios:</p>
+
+                <p><strong>Telefones de Contato:</strong><br>
+                Celular: (88) 3422-0010<br>
+                Whatsapp: (88) 98140-3718</p>
+
+                <p><strong>Endereço:</strong><br>
+                Setor K, 17, PIMN<br>
+                Morada Nova - CE</p>
+
+                <!-- Mapa do Google (Substitua o código do iframe pelo seu) -->
+                <p><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d635.0805967766537!2d-38.36689978128451!3d-5.126838502384202!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1spt-BR!2sbr!4v1705883697574!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p> 
+                <!-- Formulário de Contato -->
+                
+                <fieldset>
+                    <legend>
+                        <h2><strong>Formalário para contato: </strong></h2></legend>
+
+                    <div class="row">
+                        <form action="#" method="post">
+                            <label for="nome">Nome:</label>
+                            <input type="text" id="nome" name="nome" required>
+
+                            <label for="email">E-mail:</label>
+                            <input type="email" id="email" name="email" required>
+
+                            <p><label for="assunto">Assunto:</label>
+                            <input type="text" id="assunto" name="assunto" required></p>
+
+                            <p><label for="mensagem">Mensagem:</label></p>
+                            <p><textarea id="mensagem" name="mensagem" rows="6" cols="80" required></textarea> </p>
+
+                            <p><button type="submit">Enviar</button>
+                            <input type="reset" value="Limpar Formulário"> </p>
+                        </form>
+                    </div>
+                </fieldset>
+            </div>
+    
+            <div class="footer">
+                <p>© 2024 Clínica Estética Aurora | Morada Nova - CE | Telefone: (88) 98140-3718</p>
+                <p>Agradecemos pela sua visita!</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
